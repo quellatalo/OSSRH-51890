@@ -1,6 +1,6 @@
 package io.github.quellatalo.tableviewx;
 
-import io.github.quellatalo.fx.TableViewX;
+import io.github.quellatalo.fx.tvx.TableViewX;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.AnchorPane;
