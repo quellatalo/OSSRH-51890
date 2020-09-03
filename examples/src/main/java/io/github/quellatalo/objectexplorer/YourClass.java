@@ -2,7 +2,7 @@ package io.github.quellatalo.objectexplorer;
 
 import java.time.LocalDateTime;
 
-public class YourClass {
+public class YourClass implements YourInterface {
     private final int id;
     private final String name;
     private final LocalDateTime localDateTime;
@@ -28,5 +28,10 @@ public class YourClass {
 
     public String[] getArgs() {
         return args;
+    }
+
+    @Override
+    public String toString() {
+        return String.valueOf(id);
     }
 }
